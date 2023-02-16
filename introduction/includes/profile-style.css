@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  height: auto;
+  color: lightgray;
+  background-color: black;
+  font-family: sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+.photo2 {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
+
+.photo3 {
+  width: 115px;
+  height: auto;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 115px;
+  background-color: #232323;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.a {
+  display: block;
+  color: lightgray;
+  padding: 12px 1px 12px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.active {
+  background-color: black;
+}
+
+.a:hover:not(.active) {
+  background-color: black;
+}
+
+.active:hover {
+  background-color: darkgray;
+  color: black;
+}
+.content {
+  margin-left: 125px;
+  padding: 1px 16px;
+  height: auto;
+}
+
+hr {
+  width: 200px;
+}
+
+.content2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.white-color {
+  background-color: lightgray;
+  height: 26px;
+  width: 100%;
+}
+
+.i-display {
+  display: inline;
+}
+
+.t-color {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 40px 60px;
+  width: 100%;
+}
+
+.f-size {
+  font-size: 30px;
+}
+
+.d-button {
+  text-align: center;
+  background-color: white;
+  color: black;
+  padding: 15px 25px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  border: none;
+}
+
+.d-button:hover {
+  background-color: darkgray;
+}
+
+.a-font {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.input {
+  width: 100%;
+  height: 50px;
+  border: none
+}
+
+.i-hover {
+transition: all 0.3s ease;
+}
+
+.i-hover:hover {
+  color: #363636;
+}
+
+@media screen and (max-width: 1050px) {
+  .content2 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    position: fixed;
+    background-color: black;
+  }
+  .a:hover:not(.active) {
+    background-color: darkgray;
+    color: black;
+  }
+  .a {
+    margin-right: 1px;
+    padding: 1px;
+    float: left;
+    width: 33%;
+  }
+  div.content {
+    margin-left: 0;
+    padding-top: 55px;
+  }
+  .display {
+    display: none;
+  }
+}
